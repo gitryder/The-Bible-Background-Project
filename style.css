@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #fffbe6;
+    display: flex;
+}
+
+h1 {
+    color: #fd5523;
+}
+
+.scripture-search-box {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #37966f;
+    width: 50%;
+    margin-top: 5%;
+    padding: 1vh;
+}
+
+.scripture-search-button {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #356859;
+    color: white;
+    margin-top: 1%;
+    display: block;
+    padding: 1vh;
+}
